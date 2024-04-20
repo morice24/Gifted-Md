@@ -93,13 +93,13 @@ global.waPresence= process.env.WAPRESENCE ||  "unavailable" ; // 'unavailable' |
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "true"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "256707521863";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "2567779022";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "256777902227";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "256707521863";
 
 global.api_smd = "https://api-smd-1.vercel.app"
@@ -136,8 +136,8 @@ module.exports = {
 
   aitts_Voice_Id : process.env.AITTS_ID || "01",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "Gifted",
+  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "MORICEUG",
 
 
 
