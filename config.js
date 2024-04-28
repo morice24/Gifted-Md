@@ -56,7 +56,7 @@ global.email ="wabots@giftedtechnexus.co.ke"
 global.location="Kampala,Uganda."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://moriceug:ykneyPF1867D9903@clustermorice.sqdmjyk.mongodb.net/?retryWrites=true&w=majority"
 
-global.allowJids= process.env.ALLOW_JID || "256702935779" 
+global.allowJids= process.env.ALLOW_JID || "256750457359" 
 global.blockJids= process.env.BLOCK_JID || ""
 
 
@@ -71,8 +71,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 global.devs = "256707521863" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256702935779";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256702935779";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256750457359";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256750457359";
 
 
 
@@ -116,12 +116,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.2.5.0",
-  caption : process.env.CAPTION || "sponsored by:Bet Lordel" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
+  caption : process.env.CAPTION || "sponsored by:original T" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
  
-  author : process.env.PACK_AUTHER|| "Bet Lordel",
-  packname: process.env.PACK_NAME || "Bet Lordel",
-  botname : process.env.BOT_NAME  || "Bet Lordel",
-  ownername:process.env.OWNER_NAME|| "Bet Lordel",
+  author : process.env.PACK_AUTHER|| "original T",
+  packname: process.env.PACK_NAME || "original T",
+  botname : process.env.BOT_NAME  || "original T",
+  ownername:process.env.OWNER_NAME|| "original T
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -137,7 +137,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "01",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "Bet Lordel🇺🇬",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "original T🇺🇬",
 
 
 
