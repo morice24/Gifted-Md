@@ -56,7 +56,7 @@ global.email ="wabots@giftedtechnexus.co.ke"
 global.location="Kampala,Uganda."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://moriceug:ykneyPF1867D9903@clustermorice.sqdmjyk.mongodb.net/?retryWrites=true&w=majority"
 
-global.allowJids= process.env.ALLOW_JID || "256707521863" 
+global.allowJids= process.env.ALLOW_JID || "256788722515" 
 global.blockJids= process.env.BLOCK_JID || ""
 
 
@@ -64,15 +64,15 @@ global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kampala";
 global.github=process.env.GITHUB|| "https://github.com/mouricedevs/Gifted-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o" ; 
+global.gurl  =process.env.GURL  || "null";
+global.website=process.env.GURL || "null" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/54efddccf41281ad7ec51.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
 global.devs = "256707521863" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256707521863";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256707521863";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256788722515";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256788722515";
 
 
 
@@ -97,9 +97,9 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "256777902227";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "256707521863";
 
 global.api_smd = "https://api-smd-1.vercel.app"
@@ -116,12 +116,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.2.5.0",
-  caption : process.env.CAPTION || "sponsored by:ENG MORICEUG🇺🇬" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
+  caption : process.env.CAPTION || "sponsored by:KoolGuy🇺🇬" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
  
-  author : process.env.PACK_AUTHER|| "ENGMORICEUG🇺🇬",
-  packname: process.env.PACK_NAME || "ENGMORICEUG🇺🇬",
-  botname : process.env.BOT_NAME  || "MORICEUG🇺🇬",
-  ownername:process.env.OWNER_NAME|| "ENGMORICEUG🇺🇬",
+  author : process.env.PACK_AUTHER|| "KoolGuy🇺🇬",
+  packname: process.env.PACK_NAME || "KoolGuy🇺🇬",
+  botname : process.env.BOT_NAME  || "KoolGuy🇺🇬",
+  ownername:process.env.OWNER_NAME|| "KoolGuy🇺🇬",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -137,7 +137,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "01",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "MORICEUG",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "KoolGuy🇺🇬",
 
 
 
