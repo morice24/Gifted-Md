@@ -56,7 +56,7 @@ global.email ="wabots@giftedtechnexus.co.ke"
 global.location="Kampala,Uganda."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://moriceug:ykneyPF1867D9903@clustermorice.sqdmjyk.mongodb.net/?retryWrites=true&w=majority"
 
-global.allowJids= process.env.ALLOW_JID || "256750457359" 
+global.allowJids= process.env.ALLOW_JID || "256707521863" 
 global.blockJids= process.env.BLOCK_JID || ""
 
 
@@ -71,8 +71,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 global.devs = "256707521863" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256750457359";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256750457359";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256707521863";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256707521863";
 
 
 
@@ -80,8 +80,8 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] =========================\\
 global.style = process.env.STYLE   || '5',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "true"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
+global.gdbye = process.env.GOODBYE || "true"; 
+global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 5,
 global.disablepm = process.env.DISABLE_PM || "false",
@@ -97,10 +97,10 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "256707521863";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "null";
 
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://session.giftedtechnexus.co.ke";
@@ -113,15 +113,15 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Gifted-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || ",",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.2.5.0",
-  caption : process.env.CAPTION || "sponsored by:original T" , // ```『 ©²⁰²⁴ ɢɪғᴛᴇᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛs 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
+  caption : process.env.CAPTION || "sponsored by:Eng Morice Ug 🇺🇬, GIFTED WHATSAPP BOTS", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@giftedtechnexus"),
  
-  author : process.env.PACK_AUTHER|| "original T",
-  packname: process.env.PACK_NAME || "original T",
-  botname : process.env.BOT_NAME  || "original T",
-  ownername:process.env.OWNER_NAME|| "original T
+  author : process.env.PACK_AUTHER|| "ENG MORICE UG🇺🇬",
+  packname: process.env.PACK_NAME || "ENG MORICE UG🇺🇬",
+  botname : process.env.BOT_NAME  || "ENG MORICE UG🇺🇬",
+  ownername:process.env.OWNER_NAME|| "ENG MORICE UG🇺🇬",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -137,7 +137,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "01",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "original T🇺🇬",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "ENG MORICE UG🇺🇬",
 
 
 
